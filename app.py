@@ -7,6 +7,9 @@ from sklearn.datasets import fetch_california_housing
 
 st.title('🏠House Price prediction using ML')
 
+st.image('https://blog.architizer.com/wp-content/uploads/Untitled-design.gif')
+
+
 
 
 
