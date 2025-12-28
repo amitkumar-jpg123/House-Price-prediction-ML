@@ -31,7 +31,7 @@ scaled_X = scaler.fit_transform(X)
 final_value = scaler.transform([all_value])
 
 model = RandomForestRegressor()
-midel.fit(X,y)
+model.fit(X,y)
 house_price = model.predict(final_value)
 
 with st.spinner('Predicting House price'):
@@ -39,6 +39,7 @@ with st.spinner('Predicting House price'):
 st.write(house_price)
 
   
+
 
 
 
